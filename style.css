@@ -345,11 +345,11 @@ footer p {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
-    gap: 15px;
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+    gap: 20px;
     padding: 20px;
-    justify-items: center; /* centers the images */
-}
+    justify-items: center;
+} 
 
 .gallery img {
     width: 100%;
